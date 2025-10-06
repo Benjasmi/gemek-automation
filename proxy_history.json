@@ -1,0 +1,684 @@
+{
+  "usage_log": [
+    {
+      "timestamp": "2025-10-01 12:53:18",
+      "proxy": "45.38.107.97:6014",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@45.38.107.97:6014",
+      "account_number": 1,
+      "status": "blocked",
+      "reason": "IP blocked after sign-up"
+    },
+    {
+      "timestamp": "2025-10-01 12:54:41",
+      "proxy": "198.23.239.134:6540",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@198.23.239.134:6540",
+      "account_number": 1,
+      "status": "blocked",
+      "reason": "IP blocked after sign-up"
+    },
+    {
+      "timestamp": "2025-10-01 12:56:37",
+      "proxy": "142.111.67.146:5611",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@142.111.67.146:5611",
+      "account_number": 1,
+      "status": "blocked",
+      "reason": "IP blocked after sign-up"
+    },
+    {
+      "timestamp": "2025-10-01 12:58:23",
+      "proxy": "142.147.128.93:6593",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@142.147.128.93:6593",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-01 13:02:10",
+      "proxy": "107.172.163.27:6543",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@107.172.163.27:6543",
+      "account_number": 1,
+      "status": "blocked",
+      "reason": "IP blocked after sign-up"
+    },
+    {
+      "timestamp": "2025-10-01 13:04:00",
+      "proxy": "142.111.48.253:7030",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@142.111.48.253:7030",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-01 13:06:17",
+      "proxy": "64.137.96.74:6641",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@64.137.96.74:6641",
+      "account_number": 2,
+      "status": "blocked",
+      "reason": "IP blocked after sign-up"
+    },
+    {
+      "timestamp": "2025-10-01 13:08:58",
+      "proxy": "154.203.43.247:5536",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@154.203.43.247:5536",
+      "account_number": 2,
+      "status": "blocked",
+      "reason": "IP blocked after sign-up"
+    },
+    {
+      "timestamp": "2025-10-01 13:11:06",
+      "proxy": "84.247.60.125:6095",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@84.247.60.125:6095",
+      "account_number": 2,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-01 13:14:18",
+      "proxy": "216.10.27.159:6837",
+      "full_proxy": "jubqhmia:fy14l6hpld5d@216.10.27.159:6837",
+      "account_number": 3,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 15:19:33",
+      "proxy": "193.202.15.52:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.202.15.52:8080",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 15:26:25",
+      "proxy": "193.202.12.100:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.202.12.100:8080",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 15:28:23",
+      "proxy": "193.187.95.54:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.187.95.54:8080",
+      "account_number": 1,
+      "status": "failed",
+      "reason": "Sign-up process failed"
+    },
+    {
+      "timestamp": "2025-10-02 15:28:53",
+      "proxy": "45.140.204.216:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@45.140.204.216:8080",
+      "account_number": 2,
+      "status": "failed",
+      "reason": "Sign-up process failed"
+    },
+    {
+      "timestamp": "2025-10-02 15:58:49",
+      "proxy": "193.202.13.244:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.202.13.244:8080",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 16:00:52",
+      "proxy": "193.202.15.112:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.202.15.112:8080",
+      "account_number": 2,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 16:02:55",
+      "proxy": "193.187.92.156:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.187.92.156:8080",
+      "account_number": 3,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 16:05:03",
+      "proxy": "193.202.14.25:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.202.14.25:8080",
+      "account_number": 4,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 16:07:50",
+      "proxy": "212.119.42.157:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@212.119.42.157:8080",
+      "account_number": 5,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 16:09:51",
+      "proxy": "212.119.42.64:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@212.119.42.64:8080",
+      "account_number": 6,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 16:12:02",
+      "proxy": "193.202.14.11:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@193.202.14.11:8080",
+      "account_number": 7,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 16:14:35",
+      "proxy": "178.20.214.161:8080",
+      "full_proxy": "SuperVIPR9XBQ06:3QucCJJh@178.20.214.161:8080",
+      "account_number": 8,
+      "status": "failed",
+      "reason": "Sign-up process failed"
+    },
+    {
+      "timestamp": "2025-10-02 17:08:52",
+      "proxy": "45.145.130.199:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@45.145.130.199:8080",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:12:12",
+      "proxy": "193.202.85.53:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.85.53:8080",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:14:11",
+      "proxy": "193.187.92.144:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.187.92.144:8080",
+      "account_number": 2,
+      "status": "failed",
+      "reason": "Sign-up process failed"
+    },
+    {
+      "timestamp": "2025-10-02 17:15:40",
+      "proxy": "178.20.213.129:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@178.20.213.129:8080",
+      "account_number": 3,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:17:59",
+      "proxy": "193.202.11.163:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.11.163:8080",
+      "account_number": 4,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:19:57",
+      "proxy": "193.202.86.63:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.86.63:8080",
+      "account_number": 5,
+      "status": "failed",
+      "reason": "Sign-up process failed"
+    },
+    {
+      "timestamp": "2025-10-02 17:21:18",
+      "proxy": "193.202.84.225:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.84.225:8080",
+      "account_number": 6,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:23:47",
+      "proxy": "193.202.8.220:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.8.220:8080",
+      "account_number": 7,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:25:09",
+      "proxy": "193.187.93.243:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.187.93.243:8080",
+      "account_number": 8,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:27:22",
+      "proxy": "193.202.14.139:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.14.139:8080",
+      "account_number": 9,
+      "status": "failed",
+      "reason": "Sign-up process failed"
+    },
+    {
+      "timestamp": "2025-10-02 17:28:51",
+      "proxy": "193.202.85.164:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.85.164:8080",
+      "account_number": 10,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:32:29",
+      "proxy": "193.202.12.75:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.12.75:8080",
+      "account_number": 1,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:34:54",
+      "proxy": "193.202.12.237:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.12.237:8080",
+      "account_number": 2,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:36:49",
+      "proxy": "193.187.95.56:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.187.95.56:8080",
+      "account_number": 3,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:38:38",
+      "proxy": "212.119.43.222:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@212.119.43.222:8080",
+      "account_number": 4,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:40:53",
+      "proxy": "193.202.84.211:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.84.211:8080",
+      "account_number": 5,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:42:48",
+      "proxy": "45.145.130.184:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@45.145.130.184:8080",
+      "account_number": 6,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:44:15",
+      "proxy": "193.202.15.236:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.202.15.236:8080",
+      "account_number": 7,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:46:14",
+      "proxy": "193.187.93.117:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.187.93.117:8080",
+      "account_number": 8,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:47:33",
+      "proxy": "193.187.94.162:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@193.187.94.162:8080",
+      "account_number": 9,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:49:19",
+      "proxy": "45.145.130.220:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@45.145.130.220:8080",
+      "account_number": 10,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:50:43",
+      "proxy": "146.19.90.218:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@146.19.90.218:8080",
+      "account_number": 11,
+      "status": "success",
+      "reason": "Account created successfully"
+    },
+    {
+      "timestamp": "2025-10-02 17:52:16",
+      "proxy": "178.20.214.36:8080",
+      "full_proxy": "SuperVIP84HM5AN:Rm0hEqHG@178.20.214.36:8080",
+      "account_number": 12,
+      "status": "success",
+      "reason": "Account created successfully"
+    }
+  ],
+  "proxy_stats": {
+    "45.38.107.97:6014": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-01 12:53:18",
+      "last_used": "2025-10-01 12:53:18"
+    },
+    "198.23.239.134:6540": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-01 12:54:41",
+      "last_used": "2025-10-01 12:54:41"
+    },
+    "142.111.67.146:5611": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-01 12:56:37",
+      "last_used": "2025-10-01 12:56:37"
+    },
+    "142.147.128.93:6593": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-01 12:58:23",
+      "last_used": "2025-10-01 12:58:23"
+    },
+    "107.172.163.27:6543": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-01 13:02:10",
+      "last_used": "2025-10-01 13:02:10"
+    },
+    "142.111.48.253:7030": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-01 13:04:00",
+      "last_used": "2025-10-01 13:04:00"
+    },
+    "64.137.96.74:6641": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-01 13:06:17",
+      "last_used": "2025-10-01 13:06:17"
+    },
+    "154.203.43.247:5536": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-01 13:08:58",
+      "last_used": "2025-10-01 13:08:58"
+    },
+    "84.247.60.125:6095": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-01 13:11:06",
+      "last_used": "2025-10-01 13:11:06"
+    },
+    "216.10.27.159:6837": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-01 13:14:18",
+      "last_used": "2025-10-01 13:14:18"
+    },
+    "193.202.15.52:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 15:19:33",
+      "last_used": "2025-10-02 15:19:33"
+    },
+    "193.202.12.100:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 15:26:25",
+      "last_used": "2025-10-02 15:26:25"
+    },
+    "193.187.95.54:8080": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-02 15:28:23",
+      "last_used": "2025-10-02 15:28:23"
+    },
+    "45.140.204.216:8080": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-02 15:28:53",
+      "last_used": "2025-10-02 15:28:53"
+    },
+    "193.202.13.244:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 15:58:49",
+      "last_used": "2025-10-02 15:58:49"
+    },
+    "193.202.15.112:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 16:00:52",
+      "last_used": "2025-10-02 16:00:52"
+    },
+    "193.187.92.156:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 16:02:55",
+      "last_used": "2025-10-02 16:02:55"
+    },
+    "193.202.14.25:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 16:05:03",
+      "last_used": "2025-10-02 16:05:03"
+    },
+    "212.119.42.157:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 16:07:50",
+      "last_used": "2025-10-02 16:07:50"
+    },
+    "212.119.42.64:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 16:09:51",
+      "last_used": "2025-10-02 16:09:51"
+    },
+    "193.202.14.11:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 16:12:02",
+      "last_used": "2025-10-02 16:12:02"
+    },
+    "178.20.214.161:8080": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-02 16:14:35",
+      "last_used": "2025-10-02 16:14:35"
+    },
+    "45.145.130.199:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:08:52",
+      "last_used": "2025-10-02 17:08:52"
+    },
+    "193.202.85.53:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:12:12",
+      "last_used": "2025-10-02 17:12:12"
+    },
+    "193.187.92.144:8080": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-02 17:14:11",
+      "last_used": "2025-10-02 17:14:11"
+    },
+    "178.20.213.129:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:15:40",
+      "last_used": "2025-10-02 17:15:40"
+    },
+    "193.202.11.163:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:17:59",
+      "last_used": "2025-10-02 17:17:59"
+    },
+    "193.202.86.63:8080": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-02 17:19:57",
+      "last_used": "2025-10-02 17:19:57"
+    },
+    "193.202.84.225:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:21:18",
+      "last_used": "2025-10-02 17:21:18"
+    },
+    "193.202.8.220:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:23:47",
+      "last_used": "2025-10-02 17:23:47"
+    },
+    "193.187.93.243:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:25:09",
+      "last_used": "2025-10-02 17:25:09"
+    },
+    "193.202.14.139:8080": {
+      "total_uses": 1,
+      "successful_uses": 0,
+      "failed_uses": 1,
+      "first_used": "2025-10-02 17:27:22",
+      "last_used": "2025-10-02 17:27:22"
+    },
+    "193.202.85.164:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:28:51",
+      "last_used": "2025-10-02 17:28:51"
+    },
+    "193.202.12.75:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:32:29",
+      "last_used": "2025-10-02 17:32:29"
+    },
+    "193.202.12.237:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:34:54",
+      "last_used": "2025-10-02 17:34:54"
+    },
+    "193.187.95.56:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:36:49",
+      "last_used": "2025-10-02 17:36:49"
+    },
+    "212.119.43.222:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:38:38",
+      "last_used": "2025-10-02 17:38:38"
+    },
+    "193.202.84.211:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:40:53",
+      "last_used": "2025-10-02 17:40:53"
+    },
+    "45.145.130.184:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:42:48",
+      "last_used": "2025-10-02 17:42:48"
+    },
+    "193.202.15.236:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:44:15",
+      "last_used": "2025-10-02 17:44:15"
+    },
+    "193.187.93.117:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:46:14",
+      "last_used": "2025-10-02 17:46:14"
+    },
+    "193.187.94.162:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:47:33",
+      "last_used": "2025-10-02 17:47:33"
+    },
+    "45.145.130.220:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:49:19",
+      "last_used": "2025-10-02 17:49:19"
+    },
+    "146.19.90.218:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:50:43",
+      "last_used": "2025-10-02 17:50:43"
+    },
+    "178.20.214.36:8080": {
+      "total_uses": 1,
+      "successful_uses": 1,
+      "failed_uses": 0,
+      "first_used": "2025-10-02 17:52:16",
+      "last_used": "2025-10-02 17:52:16"
+    }
+  },
+  "total_uses": 45,
+  "successful_uses": 33,
+  "failed_uses": 12
+}

@@ -1,0 +1,125 @@
+{
+  "available_options": {
+    "devices": [
+      {
+        "id": "mobile",
+        "name": "Mobile Devices",
+        "description": "Android & iPhone devices"
+      },
+      {
+        "id": "android", 
+        "name": "Android Only",
+        "description": "100+ Android devices"
+      },
+      {
+        "id": "iphone",
+        "name": "iPhone Only", 
+        "description": "50+ iPhone devices"
+      },
+      {
+        "id": "desktop",
+        "name": "Desktop Only",
+        "description": "40+ Desktop computers"
+      },
+      {
+        "id": "random",
+        "name": "Random All",
+        "description": "190+ All device types"
+      }
+    ],
+    "locations": [
+      {
+        "id": "us",
+        "name": "United States", 
+        "language": "en-US"
+      },
+      {
+        "id": "eu",
+        "name": "Europe",
+        "language": "en-GB"
+      },
+      {
+        "id": "asia", 
+        "name": "Asia",
+        "language": "ja-JP"
+      },
+      {
+        "id": "de",
+        "name": "Germany",
+        "language": "de-DE"
+      },
+      {
+        "id": "fr",
+        "name": "France",
+        "language": "fr-FR"
+      },
+      {
+        "id": "jp",
+        "name": "Japan",
+        "language": "ja-JP"
+      }
+    ],
+    "stealth_modes": [
+      {
+        "id": "new_user",
+        "name": "New User",
+        "clear_cookies": true,
+        "random_delays": true
+      },
+      {
+        "id": "returning_user", 
+        "name": "Returning User",
+        "clear_cookies": false,
+        "save_session": true
+      }
+    ],
+    "proxy_modes": [
+      {
+        "id": "rotating_proxies",
+        "name": "Rotating Proxies",
+        "description": "Use proxy manager with rotating proxies"
+      },
+      {
+        "id": "proxy_files",
+        "name": "Proxy Files", 
+        "description": "Load proxies from text files"
+      },
+      {
+        "id": "api_proxies",
+        "name": "API Proxies",
+        "description": "Get proxies from API service"
+      },
+      {
+        "id": "tor_proxy",
+        "name": "Tor Network",
+        "description": "Use Tor proxy (always available)"
+      }
+    ],
+    "task_modes": [
+      {
+        "id": "active_user",
+        "name": "Active User", 
+        "description": "Sign up and complete tasks"
+      },
+      {
+        "id": "quick_signup",
+        "name": "Quick Signup",
+        "description": "Only sign up, no tasks"
+      }
+    ]
+  },
+  "predefined_sites": {
+    "gemek": {
+      "name": "Gemek",
+      "url": "https://gemek.top/#/register?ref=774651",
+      "enable_task_claim": true,
+      "task_selectors": ["//*[contains(text(), 'Task')]", "//*[contains(text(), 'To complete')]"]
+    }
+  },
+  "defaults": {
+    "max_accounts": 1,
+    "min_delay": 3,
+    "max_delay": 8,
+    "default_headless_mode": false
+  }
+}
