@@ -10,8 +10,14 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y tigervnc-standalone-server xfce4
         
-    - name: Start TigerVNC with XFCE
+    - name: Set VNC password and start
       run: |
+        # Set a default password (required for TigerVNC)
+        mkdir -p ~/.vnc
+        echo "password" | vncpasswd -f > ~/.vnc/passwd
+        chmod 600 ~/.vnc/passwd
+        
+        # Start VNC server
         vncserver -localhost :1
         export DISPLAY=:1
         xfce4-session &
