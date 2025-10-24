@@ -1,0 +1,17 @@
+name: TigerVNC Server
+on: [workflow_dispatch]
+
+jobs:
+  tigervnc:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install TigerVNC and XFCE
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y tigervnc-standalone-server xfce4
+        
+    - name: Start TigerVNC with XFCE
+      run: |
+        vncserver -localhost :1
+        export DISPLAY=:1
+        xfce4-session &
