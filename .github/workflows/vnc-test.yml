@@ -1,4 +1,5 @@
 name: TigerVNC with LocalXpose
+onname: TigerVNC with Localtonet
 on: [workflow_dispatch]
 
 jobs:
@@ -16,18 +17,14 @@ jobs:
         echo "password" | vncpasswd -f > ~/.vnc/passwd
         chmod 600 ~/.vnc/passwd
         
-    - name: Download LocalXpose
+    - name: Download Localtonet
       run: |
-        wget -q https://lxpse.com/linux/loclx -O loclx
-        chmod +x loclx
+        wget -q https://localtonet.com/download/linux -O localtonet
+        chmod +x localtonet
         
-    - name: Start VNC and LocalXpose tunnel
+    - name: Start VNC and Localtonet
       run: |
-        # Start VNC server
         vncserver -localhost :1
         export DISPLAY=:1
         xfce4-session &
-        
-        # Start LocalXpose with YOUR token
-        echo "🚀 Starting LocalXpose tunnel..."
-        ./loclx tunnel tcp --port 5901 --token AuyMjNb72nWAmt7MfWII0tOSwo1NsbEK716DUzVa
+        ./localtonet tcp --port 5901 --token Aw7xeMfRbuOBHpkoEgT3z8KYn6P0Sqhv1
