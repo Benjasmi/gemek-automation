@@ -16,7 +16,7 @@ jobs:
         echo "password" | vncpasswd -f > ~/.vnc/passwd
         chmod 600 ~/.vnc/passwd
         
-    - name: Download and setup LocalXpose
+    - name: Download LocalXpose
       run: |
         wget -q https://lxpse.com/linux/loclx -O loclx
         chmod +x loclx
@@ -28,6 +28,6 @@ jobs:
         export DISPLAY=:1
         xfce4-session &
         
-        # Start LocalXpose TCP tunnel for VNC
+        # Start LocalXpose with YOUR token
         echo "🚀 Starting LocalXpose tunnel..."
-        ./loclx tunnel tcp --port 5901 --token free
+        ./loclx tunnel tcp --port 5901 --token AuyMjNb72nWAmt7MfWII0tOSwo1NsbEK716DUzVa
