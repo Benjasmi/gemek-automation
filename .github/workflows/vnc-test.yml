@@ -17,13 +17,13 @@ jobs:
         echo "password" | vncpasswd -f > ~/.vnc/passwd
         chmod 600 ~/.vnc/passwd
         
-    - name: Start VNC and Serveo tunnel
+    - name: Start VNC on web port and Serveo tunnel
       run: |
-        # Start VNC server
-        vncserver -localhost :1
-        export DISPLAY=:1
+        # Start VNC on port 8080 (web-friendly)
+        vncserver -localhost :99 -rfbport 8080
+        export DISPLAY=:99
         xfce4-session &
         
-        # FIXED Serveo command - uses port 80 instead of port 0
+        # Serveo can now forward port 80 to port 8080
         echo "🚀 Starting Serveo tunnel..."
-        ssh -o StrictHostKeyChecking=no -R 80:localhost:5901 serveo.net
+        ssh -o StrictHostKeyChecking=no -R 80:localhost:8080 serveo.net
