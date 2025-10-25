@@ -1,5 +1,4 @@
-name: TigerVNC with LocalXpose
-onname: TigerVNC with Localtonet
+name: TigerVNC with Localtonet
 on: [workflow_dispatch]
 
 jobs:
