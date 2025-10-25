@@ -1,4 +1,3 @@
-
 name: TigerVNC with Serveo
 on: [workflow_dispatch]
 
@@ -17,13 +16,13 @@ jobs:
         echo "password" | vncpasswd -f > ~/.vnc/passwd
         chmod 600 ~/.vnc/passwd
         
-    - name: Start VNC on web port and Serveo tunnel
+    - name: Start VNC on port 80 and Serveo tunnel
       run: |
-        # Start VNC on port 8080 (web-friendly)
-        vncserver -localhost :99 -rfbport 8080
-        export DISPLAY=:99
+        # Start VNC on PORT 80 to match Serveo
+        vncserver -localhost :1 -rfbport 80
+        export DISPLAY=:1
         xfce4-session &
         
-        # Serveo can now forward port 80 to port 8080
+        # Serveo forwards port 80 to port 80
         echo "🚀 Starting Serveo tunnel..."
-        ssh -o StrictHostKeyChecking=no -R 80:localhost:8080 serveo.net
+        ssh -o StrictHostKeyChecking=no -R 80:localhost:80 serveo.net
