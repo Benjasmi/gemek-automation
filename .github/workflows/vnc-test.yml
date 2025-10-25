@@ -24,6 +24,6 @@ jobs:
         export DISPLAY=:1
         xfce4-session &
         
-        # Start Serveo tunnel (this will show the public URL)
+        # FIXED Serveo command - uses port 80 instead of port 0
         echo "🚀 Starting Serveo tunnel..."
-        ssh -o StrictHostKeyChecking=no -R 0:localhost:5901 serveo.net
+        ssh -o StrictHostKeyChecking=no -R 80:localhost:5901 serveo.net
