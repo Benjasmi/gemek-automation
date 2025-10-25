@@ -16,13 +16,13 @@ jobs:
         echo "password" | vncpasswd -f > ~/.vnc/passwd
         chmod 600 ~/.vnc/passwd
         
-    - name: Start VNC on port 80 and Serveo tunnel
+    - name: Start VNC on port 8080 and Serveo tunnel
       run: |
-        # Start VNC on PORT 80 to match Serveo
-        vncserver -localhost :1 -rfbport 80
+        # Start VNC on PORT 8080
+        vncserver -localhost :1 -rfbport 8080
         export DISPLAY=:1
         xfce4-session &
         
-        # Serveo forwards port 80 to port 80
+        # Serveo forwards port 80 to port 8080
         echo "🚀 Starting Serveo tunnel..."
-        ssh -o StrictHostKeyChecking=no -R 80:localhost:80 serveo.net
+        ssh -o StrictHostKeyChecking=no -R 80:localhost:8080 serveo.net
