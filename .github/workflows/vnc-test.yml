@@ -1,4 +1,4 @@
-name: TigerVNC with Serveo
+name: TigerVNC with LocalXpose
 on: [workflow_dispatch]
 
 jobs:
@@ -8,7 +8,7 @@ jobs:
     - name: Install VNC and XFCE
       run: |
         sudo apt-get update
-        sudo apt-get install -y tigervnc-standalone-server xfce4
+        sudo apt-get install -y tigervnc-standalone-server xfce4 wget
         
     - name: Set VNC password
       run: |
@@ -16,13 +16,18 @@ jobs:
         echo "password" | vncpasswd -f > ~/.vnc/passwd
         chmod 600 ~/.vnc/passwd
         
-    - name: Start VNC on port 8080 and Serveo tunnel
+    - name: Download and setup LocalXpose
       run: |
-        # Start VNC on PORT 8080
-        vncserver -localhost :1 -rfbport 8080
+        wget -q https://lxpse.com/linux/loclx -O loclx
+        chmod +x loclx
+        
+    - name: Start VNC and LocalXpose tunnel
+      run: |
+        # Start VNC server
+        vncserver -localhost :1
         export DISPLAY=:1
         xfce4-session &
         
-        # Serveo forwards port 80 to port 8080
-        echo "🚀 Starting Serveo tunnel..."
-        ssh -o StrictHostKeyChecking=no -R 80:localhost:8080 serveo.net
+        # Start LocalXpose TCP tunnel for VNC
+        echo "🚀 Starting LocalXpose tunnel..."
+        ./loclx tunnel tcp --port 5901 --token free
