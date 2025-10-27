@@ -1,29 +1,28 @@
-name: TigerVNC with Localtonet
+name: Localtonet API + VNC Test
 on: [workflow_dispatch]
 
 jobs:
-  vnc:
+  test:
     runs-on: ubuntu-latest
     steps:
-    - name: Install VNC and XFCE
+    - name: Install VNC
       run: |
         sudo apt-get update
-        sudo apt-get install -y tigervnc-standalone-server xfce4 wget
+        sudo apt-get install -y tigervnc-standalone-server xfce4
         
-    - name: Set VNC password
+    - name: Start VNC
       run: |
         mkdir -p ~/.vnc
         echo "password" | vncpasswd -f > ~/.vnc/passwd
-        chmod 600 ~/.vnc/passwd
-        
-    - name: Download Localtonet
-      run: |
-        wget -q https://localtonet.com/download/linux -O localtonet
-        chmod +x localtonet
-        
-    - name: Start VNC and Localtonet
-      run: |
         vncserver -localhost :1
         export DISPLAY=:1
         xfce4-session &
-        ./localtonet tcp --port 5901 --token Aw7xeMfRbuOBHpkoEgT3z8KYn6P0Sqhv1
+        echo "✅ VNC started on :1"
+        
+    - name: Create Localtonet tunnel via API
+      run: |
+        response=$(curl -s -X POST "https://api.localtonet.com/tunnel" \
+          -H "Authorization: Bearer Aw7xeMfRbuOBHpkoEgT3z8KYn6P0Sqhv1" \
+          -H "Content-Type: application/json" \
+          -d '{"type": "tcp", "local_port": 5901}')
+        echo "API Response: $response"
